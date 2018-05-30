@@ -7,8 +7,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 400px;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .nav{
@@ -153,7 +152,63 @@ nav p{
     font-size: 14px;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 1250px;
+    height: 300px;
+    background-image: url("../image/footer.png");
+    background-size: cover;
+    color: white;
+    justify-content: space-between;
+}
 
+.footer-title{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.main-url{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.single-url{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.single-url img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.illustration{
+    display: flex;
+    margin-left: 50px;
+}
+
+.illustration div:nth-child(2){
+    margin-left: 100px;
+}
+
+.illustration-text{
+    margin-top: 10px;
+}
+
+.illustration-title{
+    font-size: 20px;
+}
+
+.weixin{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
 
 
 
