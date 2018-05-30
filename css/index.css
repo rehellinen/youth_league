@@ -53,6 +53,11 @@ nav p{
     color: white;
 }
 
+.search-image{
+    width: 20px;
+    height: 20px;
+}
+
 .recommend{
     width: 1250px;
     margin-top: 40px;
