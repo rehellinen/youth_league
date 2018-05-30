@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.nav{
+    width: 1200px;
+}
+
+.header-image{
+    width: 1200px;
+    height: 170px;
+
+}
+
+nav{
+    position: fixed;
+    top: 65px;
+    left: 210px;
+    display: flex;
+    border-bottom: 2px solid #a4a4a4;
+    border-top: 2px solid #a4a4a4;
+}
+
+nav p{
+    color: #3c3c3c;
+    padding: 10px 30px;
+}
