@@ -51,3 +51,26 @@ nav p{
     background:rgba(255,255,255,0.5);
     color: white;
 }
+
+.recommend{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title p{
+    color: #016776;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.short-line{
+    background-color: #016776;
+    width: 20px;
+    height: 10px;
+}
