@@ -12,18 +12,15 @@
 
 .nav{
     width: 1250px;
-}
-
-.header-image{
-    width: 1250px;
-    height: 200px;
-
+    background-image: url("../image/header.png");
+    height: 170px;
+    background-size: cover;
 }
 
 nav{
-    position: absolute;
-    top: 75px;
-    left: 210px;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 850px;
     display: flex;
     border-bottom: 2px solid #a4a4a4;
     border-top: 2px solid #a4a4a4;
@@ -34,18 +31,22 @@ nav p{
     padding: 10px 30px;
 }
 
-.banner-image{
+.banner{
     width: 1250px;
-    height: 700px;
+    background-image: url("../image/banner.png");
+    height: 680px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .search{
     width: 300px;
-    top: 630px;
-    left: 475px;
-    position: absolute;
+    margin-top: 400px;
+    height: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     border-radius: 10px;
     background:rgba(255,255,255,0.5);
