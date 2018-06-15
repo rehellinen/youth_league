@@ -167,11 +167,11 @@ nav p{
     background-image: url("../image/footer.png");
     background-size: cover;
     color: white;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-title{
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 50px;
     font-size: 22px;
 }
