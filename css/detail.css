@@ -2,3 +2,37 @@
     width: 1250px;
     display: flex;
 }
+
+.left{
+    flex-basis: 20%;
+}
+
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: #01657c;
+    color: white;
+}
+
+.left-nav{
+    padding: 7% 8%;
+    border: 1px solid #f3f1f2;
+}
+
+.single-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a7c5cf;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.right{
+    flex-basis: 72%;
+    margin-left: 4%;
+}
